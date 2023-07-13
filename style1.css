@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+    
+    header
+    {background-image: url(picture/background\ 8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;}
+    
+    ul
+    {float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    }
+    ul li {display: inline-block ;}
+    
+    ul li a
+    {text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+     }
+    
+     ul li a:hover{
+        background-color:#fff;
+        color: black; 
+     }
+    
+     ul li.active a {
+    color: black;}
+    
+    .logo img {float: left;
+    width: 90px;
+    height: auto;
+    }
+    
+    main {max-width: 1200px;
+    margin: auto;}
+    
+    .about{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .hero {
+        width: 80%; 
+        margin:auto;
+        padding:30px 0px;
+    }
+    article h1{
+        font-size: 50px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color:black;
+    }
+    article h1::after{
+        height: 3px;
+        width:225px;
+        background-color: cyan;
+        display:block;
+        margin:auto;
+    }
+    img{
+        margin:auto;
+        display: block;
+        margin-top: 40px;
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+    }
+    content{
+        font-size: 17;
+        color: black;
+        line-height: 1.5;
+    }
+    .timeline{
+        position: relative;
+        max-width: 1200px;
+        margin:  auto;
+      }
+      .container{
+        padding: 10px 50px;
+        position: relative;
+        width: 50%;
+        background: rgba(0, 0, 0, 0.3);
+      }
+      .text-box{
+        padding: 20px 30px;
+        background: #fff;
+        position: relative;
+        border-radius: 6px;
+        font-size: 15px;
+    
+      }
+      .left-container{
+        left: 0;
+      }
+      .right-container{
+        left: 50%;
+      }
+  
+  
